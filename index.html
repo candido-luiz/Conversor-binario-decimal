@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin to Dec</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="conversor">
+            
+                <input oninput="checkNumber(this)" id="binary_input" type="number" name="binary_input">
+                <button onclick="convert_to_decimal()" > Converter </button>
+                <input id="decimal_output" type="number" name="decimal_output">
+                
+            
+                <input id="decimal_input" type="number" name="decimal_input">
+                <button onclick="convert_to_binary()" > Converter </button>
+                <input id="binary_output" type="number" name="binary_output">
+            
+        </div>
+        <div class="text">
+            <h2> Conversor Binário - Decimal </h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
